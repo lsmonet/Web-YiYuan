@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> @ViewBag.Title</title>
+    <link href="~/Content/bootstrap.css" rel='stylesheet' type='text/css' />
+    <script src="~/Scripts/jquery.min.js"></script>
+    <link href="~/Content/style.css" rel="stylesheet" type="text/css" media="all" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--webfont-->
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="~/Scripts/move-top.js"></script>
+    <script type="text/javascript" src="~/Scripts/easing.js"></script>
+    <!--/script-->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 900);
+            });
+        });
+    </script>
+
+
+</head>
+<body>
+
+
+
+    <div >
+        @RenderBody()
+    </div>
+
+    <div class="get-in-touch">
+        <div class="container">
+            <div class="col-md-3 gin">
+                <h3>联系我们</h3>
+                <p></p>
+                <div class="social-icons footer-icons gin">
+                    QQ:2044258293
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-3 address">
+                @*联系地址*@
+                @*<h3>Address</h3>
+                    <address>
+                        <p>10-765 mg-Road,
+                        <p>Washington, DC, United States,</p>
+                        <p>ud-19832-6578.</p>
+                        <p class="phone"><span>Phone</span> :+1 900 876 1234</p>
+                        <span class="phone">E-mail : <a href="mail-to:example@mail.com">example@mail.com</a></span>
+                    </address>*@
+            </div>
+            <div class="col-md-6 dal">
+                <h3>告诉我们您的需求</h3>
+                <input type="text" class="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == 'dd') {this.value = 'UserName';}">
+                @*<input type="text" class="text" value="Last Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}">*@
+                <input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == 'dd') {this.value = 'E-mail';}">
+                <input type="text" class="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == 'dd') {this.value = 'Phoned';}">
+                <textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';">项目描述</textarea>
+                <input type="submit" value="提交">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+
+    <!-- footer-section -->
+    <div class="footer">
+        <div class="container">
+            <div class="copyright text-center">
+                <p>Copyright &copy; 2015.Company name All rights reserved.More Templates</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

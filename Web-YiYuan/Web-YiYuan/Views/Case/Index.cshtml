@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+	<!-- header-section-starts -->
+
+<div class="about-header-banner">
+    <div class="container">
+        @*<div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>*@
+        <div class="header-top">
+            @*<div class="social-icons">
+                <i class="facebook"></i>
+                <i class="twitter"></i>
+                <i class="googlepluse"></i>
+            </div>*@
+            <span class="menu"><img src="~/Content/image/nav.png" alt="" /></span>
+            <div class="top-menu">
+                <ul>
+                    <nav class="cl-effect-13">
+
+                        <li><a href="/Home/Index">首页</a></li>
+                        <li><a href="gallery.html">模板</a></li>
+                        @*<li><a class="scroll" href="#news">定制</a></li>*@
+                        <li><a class="scroll" href="/CustomMade/Index">定制</a></li>
+                        <li><a href="/Case/Index">案例</a></li>
+                        <li><a href="typography.html">分类</a></li>
+                        <li><a href="/About/Index">关于</a></li>
+                    </nav>
+                </ul>
+            </div>
+            <!-- script for menu -->
+            <script>
+
+						$( "span.menu" ).click(function() {
+						$( ".top-menu ul" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+            </script>
+            <!-- //script for menu -->
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="banner-info text-center">
+            <h1><a href="index.html" >提供最好的互联网服务</a></h1>
+        </div>
+    </div>
+</div>
+
+<!-- header-section-ends -->
+<!-- content-section-starts -->
+<div class="content">
+    <div class="container">
+        <div class="gallery-head" id="portfolio">
+            <h3>我们的案例</h3>
+            <div class="gallery-bottom">
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/gl5.jpg">
+                        <img src="~/Content/image/gl5.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/gl4.jpg">
+                        <img src="~/Content/image/gl4.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/gl5.jpg">
+                        <img src="~/Content/image/gl5.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/gl6.jpg">
+                        <img src="~/Content/image/gl6.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/r4.jpg">
+                        <img src="~/Content/image/r4.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/gl2.jpg">
+                        <img src="~/Content/image/gl2.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/r6.jpg">
+                        <img src="~/Content/image/r6.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/r3.jpg">
+                        <img src="~/Content/image/r3.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="~/Content/image/gl4.jpg">
+                        <img src="~/Content/image/r6.jpg" alt="name" />
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <script src="js/jquery.chocolat.js"></script>
+            <link rel="stylesheet" href="css/chocolat.css" type="text/css" />
+            <!-- Javascript calls -->
+            <script type="text/javascript" charset="utf-8">
+		$(function() {
+		 $('#portfolio a').Chocolat({overlayColor:'#000',leftImg:'~/Content/image/leftw.gif',rightImg:'~/Content/image/rightw.gif',closeImg:'~/Content/image/closew.gif'});
+	   });
+            </script>
+        </div>
+    </div>
+
+</div>
+<div class="gallery-top">
+    <div class="gallery">
+    </div>
+</div>
+   </div>
+</div>
+
+

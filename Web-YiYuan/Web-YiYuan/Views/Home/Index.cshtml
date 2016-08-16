@@ -1,0 +1,354 @@
+﻿@{
+    ViewBag.Title = "一源工作室";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+
+
+    <link href="~/Content/banner.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- header-section-starts -->
+
+
+    @*<div class="banner">
+        <ul>
+        <li style="background:url(~/Content/image/subway.jpg)">
+            <div style="background:url('~/Content/image/subway.jpg')">
+            </div>
+        </li>
+        <li style="background-image:url(~/Content/image/subway.jpg)">Pretty cool, huh?</li>
+        </ul>
+    </div>*@
+    <!-- And the relevant JavaScript -->
+
+   
+
+
+
+    <div class="header-banner">
+
+
+        <div class="banner">
+            <ul>
+                <li style="background-image: url('/Content/image/sunset.jpg');">
+                    <div class="inner">
+                        <h1>The jQuery slider that just slides.</h1>
+                        <p>No fancy effects or unnecessary markup, and it’s less than 3kb.</p>
+
+                        <a class="btn" href="#download">Download</a>
+                    </div>
+                </li>
+
+                <li style="background-image: url('/Content/image/wood.jpg');">
+                    <div class="inner">
+                        <h1>Fluid, flexible, fantastically minimal.</h1>
+                        <p>Use any HTML in your slides, extend with CSS. You have full control.</p>
+
+                        <a class="btn" href="#download">Download</a>
+                    </div>
+                </li>
+
+                <li style="background-image: url('/Content/image/subway.jpg');">
+                    <div class="inner">
+                        <h1>Open-source.</h1>
+                        <p>Everything to do with Unslider is hosted on GitHub.</p>
+
+                        <a class="btn" href="//github.com/idiot/unslider">Contribute</a>
+                    </div>
+                </li>
+
+                <li style="background-image: url('/Content/image/shop.jpg');">
+                    <div class="inner">
+                        <h1>Uh, that’s about it.</h1>
+                        <p>I just wanted to show you another slide.</p>
+
+                        <a class="btn" href="#download">Download</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+     
+        <script>$(function () { $('.banner').unslider() })</script>
+
+
+
+        <div class="container">
+          
+
+
+
+
+
+
+
+
+            @*<div class="home">
+                <a href="/Home/Index">一源科技</a>
+            </div>*@
+
+            <div style="margin-top:50px;"></div>
+
+            <div class="header-top">
+                @*<div class="social-icons">
+                    <i class="facebook"></i>
+                    <i class="twitter"></i>
+                    <i class="googlepluse"></i>
+                </div>*@
+                <span class="menu"><img src="~/Content/~/Content/image/nav.png" alt="" /></span>
+                <div class="top-menu">
+                    <ul>
+                        @*<li><a href="/Home/Index"><img src="~/Content/image/logo-2.png" /></a></li>*@ 
+                        <nav class="cl-effect-13">
+                           
+                            <li><a href="/Home/Index">首页</a></li>
+                            <li><a href="gallery.html">模板</a></li>
+                            @*<li><a class="scroll" href="#news">定制</a></li>*@
+                            <li><a class="scroll" href="/CustomMade/Index">定制</a></li>
+                            <li><a href="/Case/Index">案例</a></li>
+                            <li><a href="typography.html">分类</a></li>
+                            <li><a href="/About/Index">关于</a></li>
+                        </nav>
+                    </ul>
+                </div>
+                <!-- script for menu -->
+                <script>
+                    $("span.menu").click(function () {
+                        $(".top-menu ul").slideToggle(300, function () {
+                            // Animation complete.
+                        });
+                    });
+                </script>
+                <!-- //script for menu -->
+
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="banner-info text-center">
+                @*<h1><a href="index.html">提供最好的互联网服务</a></h1>*@
+                <h1><a href="index.html">11</a></h1>
+            </div>
+            <div class="header-bottom-grids text-center">
+                <div class="header-bottom-grid1" style="font-family:'Microsoft YaHei'">
+                    <span class="glyphicon glyphicon-leaf"></span>
+                    <h4>网站建设</h4>
+                </div>
+                <div class="header-bottom-grid2" style="font-family:'Microsoft YaHei'">
+                    <span class="glyphicon glyphicon-certificate"></span>
+                    <h4>微信建设</h4>
+                </div>
+                <div class="header-bottom-grid3" style="font-family:'Microsoft YaHei'">
+                    <span class="glyphicon glyphicon-tree-deciduous"></span>
+                    <h4>APP开发</h4>
+                </div>
+                <div class="header-bottom-grid4" style="font-family:'Microsoft YaHei'">
+                    <span class="glyphicon glyphicon-screenshot"></span>
+                    <h4>WEB软件</h4>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- header-section-ends -->
+    <!-- content-section-starts -->
+    <div class="services">
+        <div class="container">
+            <div class="services-top-grids text-center">
+                <div class="secvice-top-grid-1">
+
+
+                    <h3> 企业网站设计及开发</h3>
+                    <p> 国际化的网站建设水准，高端视觉设计
+                        创新级的网站建设与技术服务体系
+                        品牌建设系统服务，有营销力的</p>
+                    <div class="icon1">
+                        <i class="icon1"></i>
+                    </div>
+                </div>
+                <div class="secvice-top-grid-2">
+                    <h3>微信应用开发及服务</h3>
+                    <p>
+                        企业信息、服务、活动等内容通过微信展示给微信用户，
+                        减少宣传成本，建立企业与消费者一对一互动和沟通
+                       
+                    </p>
+                    <div class="icon1">
+                        <i class="icon2"></i>
+                    </div>
+                </div>
+                <div class="secvice-top-grid-3">
+                    <h3>APP应用设计及开发</h3>
+                    <p>
+                        为移动设备/平板电脑/移动产品等终端
+                        提供交互流程及界面设计服务。
+                        包括IOS、Android、Win等多平台
+                    </p>
+                    <div class="icon1">
+                        <i class="icon3"></i>
+                    </div>
+                </div>
+                <div class="secvice-top-grid-4">
+                    <h3>管理软件定制开发</h3>
+                    <p>
+                       致力于为政府、金融、电信
+                        、教育等行业用户提供从需求分析到软件开发
+                        、项目实施和售后服务等全面专业的IT综合服务
+                    </p>
+                    <div class="icon1">
+                        <i class="icon4"></i>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+            <div class="services-bottom-grids">
+                @*<div class="col-md-3 services-bottom-left">
+                    <img src="~/Content/image/s1.jpg" alt="" />
+                </div>
+                <div class="col-md-6 services-bottom-middle text-center">
+                    <h3>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum  </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                </div>
+                <div class="col-md-3 services-bottom-right">
+                    <img src="~/Content/image/s2.jpg" alt="" />
+                </div>
+                <div class="clearfix"></div>*@
+            </div>
+        
+        
+        
+        </div>
+    </div>
+    <div class="items">
+        <div class="container">
+            <div class="col-md-4 item-1">
+
+                <a href="#" style="text-decoration:none;">
+
+                    <img src="~/Content/image/i1.jpg" alt="" />
+
+                    <h3>模板建站</h3>
+                </a>
+            </div>
+            <div class="col-md-4 item-2">
+                <a href="#" style="text-decoration:none;">
+                    <img src="~/Content/image/i2.jpg" alt="" />
+                    <h3>定制建站</h3>
+                </a>
+            </div>
+
+            <div class="col-md-4 item-2">
+                <a href="#" style="text-decoration:none;">
+                    <img src="~/Content/image/i2.jpg" alt="" />
+                    <h3>定制建站</h3>
+                </a>
+            </div>
+
+            @*<div class="col-md-4 item-3 text-center">
+
+                <h4>为什么要建站</h4>
+                <p>网站传达出企业的实力形象，品牌的独特气质，产品的信赖品质，使浏览者完成对企业的认知及品牌的理解。通过深入挖掘、分析提炼，全局规划、精心设计，完美呈现出企业的实力与价值。</p>
+            </div>*@
+          
+            
+              <div class="clearfix"></div>
+        </div>
+    </div>
+
+
+    <!-- testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <div class="testimonial-info">
+                <h3>为什么要建站</h3>
+               @* <h5>Cras porttitor imperdiet volutpat nulla malesuada lectus eros <span>ut convallis felis consectetur ut </span></h5>*@
+                <h5></h5>
+            </div>
+            <div class="testimonial-grids">
+                <div class="testimonial-grid">
+                    <p><span>"</span>网站传达出企业的实力形象，品牌的独特气质，产品的信赖品质，使浏览者完成对企业的认知及品牌的理解。通过深入挖掘、分析提炼，全局规划、精心设计，完美呈现出企业的实力与价值。<span> "</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- news -->
+    <div class="news" id="news">
+        <div class="container">
+            <div class="news-text">
+                <h3>模板快速建站</h3>
+                <h5>Cras porttitor imperdiet volutpat nulla malesuada lectus eros <span>ut convallis felis consectetur ut </span></h5>
+            </div>
+            <div class="news-grids">
+                <div class="col-md-3 news-grid wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <a href="single.html">Integer vitae ligula sed lectus</a>
+                    <span>8.00 - 10.00 | JUN 09,2014</span>
+                    <a class="mask" href="single.html"><img src="~/Content/image/img1.jpg" class="img-responsive zoom-img" alt="" /></a>
+                    <div class="news-info">
+                        <p>Pellentesque ut urna eu mauris scele risque auctor volutpat et massa pers piciis iste natus scele risque auctor volutpat et massa.</p>
+                        <a class="button" href="single.html"><img src="~/Content/image/read.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-3 news-grid wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <a href="single.html">Integer vitae ligula sed lectus</a>
+                    <span>10.00 - 12.00 | SEP 24,2014</span>
+                    <a class="mask" href="single.html"><img src="~/Content/image/img2.jpg" class="img-responsive zoom-img" alt="" /></a>
+                    <div class="news-info">
+                        <p>Pellentesque ut urna eu mauris scele risque auctor volutpat et massa pers piciis iste natus scele risque auctor volutpat et massa.</p>
+                        <a class="button" href="single.html"><img src="~/Content/image/read.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-3 news-grid wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <a href="single.html">Integer vitae ligula sed lectus</a>
+                    <span>9.00 - 10.00 | FEB 15,2014</span>
+                    <a class="mask" href="single.html"><img src="~/Content/image/img3.jpg" class="img-responsive zoom-img" alt="" /></a>
+                    <div class="news-info">
+                        <p>Pellentesque ut urna eu mauris scele risque auctor volutpat et massa pers piciis iste natus scele risque auctor volutpat et massa.</p>
+                        <a class="button" href="single.html"><img src="~/Content/image/read.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-3 news-grid wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <a href="single.html">Integer vitae ligula sed lectus</a>
+                    <span>11.00 - 10.00 | JUN 10,2014</span>
+                    <a class="mask" href="single.html"><img src="~/Content/image/img4.jpg" class="img-responsive zoom-img" alt="" /></a>
+                    <div class="news-info">
+                        <p>Pellentesque ut urna eu mauris scele risque auctor volutpat et massa pers piciis iste natus scele risque auctor volutpat et massa.</p>
+                        <a class="button" href="single.html"><img src="~/Content/image/read.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- //news -->
+    <!-- content-section-ends -->
+   
+    <!-- footer-section -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+        $(function () {
+            $('.banner').unslider();
+        });
+    </script>
+    <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> dd</span></a>
+    <!---->
+    
+</body>
+
+</html>
+
+@*<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//code.jquery.com/jquery-latest.min.js"></script>*@
+<script src="~/Scripts/unslider.min.js"></script>
+<script src="~/Scripts/unslider.js"></script>
